@@ -1,0 +1,235 @@
+body{ margin: 0px;
+padding: 0px;
+ }
+
+/* container */
+
+  
+
+   .container {
+  width: 95%;
+  margin:auto;
+ 
+
+
+ 
+  overflow: hidden;
+
+
+           }
+
+/* HEADER */
+
+ header #logo {   float:  left;
+  font-family: sans-serif;
+  font-family: helvetica;
+  margin-top: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+
+  color: white;
+
+ }
+
+
+ header { 
+ width: 100% 
+
+
+}
+
+ /* slider */
+ 
+
+header #open-slide{ display: none; }
+
+
+ 
+
+
+
+
+
+header { background-color: black;
+  min-height: 100px;
+ }
+
+header  ul{ text-decoration: none;
+	list-style: none;
+	font-family: helvetica;
+	text-transform: uppercase;
+color: black;
+margin-top: 35px;
+padding-right: 20px;
+font-weight: bold;
+float: right;
+  }
+
+  header li{  
+  display: inline;
+  padding-left: 30px; 
+}
+
+
+   /* Global */
+
+ .list a:hover { color:orange; }
+
+ a{ text-decoration: none;
+color: white; }
+
+
+/* Header media queries  */
+
+
+ /* When max-width is 759 */
+
+      @media( max-width:759px){header  li{ display: block;  }}
+
+       @media( max-width: 759px) {header #open-slide{ display: inline; float: right; margin-top: 23px; padding-right: 20px }}
+   
+
+      @media( max-width:759px){header ul{ display: none;}}
+/* max-width 470 */
+
+ @media(max-width: 470px){section #myForm{ width: 250px;  }}
+
+
+      @media( max-width:470px) {   header li{ padding-left: 0px;   }}
+
+ @media( max-width:470px) {#showcase{ 
+ 
+   min-height: 800px;
+ 
+     background:url('dek.jpeg')  no-repeat -100px -400px;
+      
+ 
+ 
+      }}
+
+       @media( max-width:470px) {header  ul{ display: none;
+  } }
+
+
+  /* SVG  */
+
+ .navbar a{  padding: 10px;
+    float: right;
+  
+   }
+
+    .navbar a:hover{    background-color:black;
+   
+    opacity: 0.4;
+  
+   }
+   
+
+.side-nav{
+
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  right: 0;
+  background-color: #111;
+  opacity: 0.9;
+  transition: 0.5s;
+
+
+}
+
+.side-nav a{ display: block;
+   font-family: sans-serif;
+
+   font-size: 20px;
+
+   padding: 10px;
+
+   padding-left: 30px;
+   
+
+
+
+
+
+
+}
+
+.side-nav a:hover { color:orange; }
+ 
+ .btnClose{ padding-left: 200px!important; }
+
+
+        /*        END    */ 
+
+
+ 
+
+
+/* #FFC300 */
+
+
+
+body{ background-color: black ; }
+
+
+
+
+
+
+
+
+/* MEDiA QUERIES  */ 
+
+
+
+ 
+ /* form  */
+
+section { min-height: 800px;
+
+    background:url('dek.jpeg')  no-repeat 0  ;
+    background-size:  1550px; }
+
+ #myForm  {  
+       
+  background-color: orange;
+ color:black;
+  width: 300px; 
+  text-align: center;
+min-height: 500px;
+padding: 30px 30px 30px 25px;
+margin:auto;
+ margin-top:30px;
+
+ 
+ 
+border-radius: 1em;}
+
+
+#reach { background-color: black; color: white;
+ font-size: 22px;
+  border-radius: 1em;}
+ 
+ 
+
+ #myForm label{ display: block;
+ font-family: sans-serif; margin-top: 10px;}
+
+ #myForm input{ width: 100%; height:30px; margin-top: 10px; }
+
+  #myForm input[type = 'submit']{  height: 70px; width: 102%; font-size: 20px;}
+
+  #myForm textarea{display: block; width: 100%;margin-top:10px;height: 100px}
+
+ 
+
+
+
+
+           /* Footer   */
+
+  #feet{ min-height: 100px; }
+  footer  { background-color: black; } h3{ color: white; text-align: center; font-size: 15px;  }

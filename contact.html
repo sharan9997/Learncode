@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="xxx3.css">
+		<meta name="viewport" content="initial-scale=1">
+</head>
+<body>
+
+
+
+	<header>
+		<div class="container">
+
+		
+
+
+		 <h3 id="logo">LEARN <span style="color: orange">CODE</span></h3>
+
+
+
+	     <nav class="navbar">
+
+
+         <span id="open-slide" >
+		 <a href="#" onclick="openSlideMenu()">
+
+         <svg width="30" height="30">
+
+         <path d="M0,5 30,5" stroke="white" stroke-width="5"/>
+              
+         <path d="M0,14 30,14" stroke="white" stroke-width="5"/>
+
+         <path d="M0,23 30,23" stroke="white" stroke-width="5"/>
+
+
+
+         </a>
+	     </span>
+
+
+
+
+
+
+				<ul class="list" style="text-decoration: none;">
+
+
+
+			    <li><a href="https://dressiest-center.000webhostapp.com">CONTACT</a></li>
+	 			 
+				<li><a href="https://procephalic-videos.000webhostapp.com">HOME</a></li>	
+
+
+
+				</ul>
+
+				
+
+			</nav>
+   <div id="side-menu" class="side-nav">
+    <a href="#" class="btnClose" id="close"        onclick="closeSlideNav()">&times;</a>
+    <a href="https://procephalic-videos.000webhostapp.com">Home</a>
+    
+ 
+    <a href="https://dressiest-center.000webhostapp.com">Contact</a>
+  </div>
+           
+
+		</div>
+
+
+	</header>
+
+
+
+<section>
+
+<div class="container">
+	
+<form  id="myForm" onsubmit=" return validate()">
+
+<label id="reach" style="padding: 10px;">REACH US</label>
+
+<label>FIRST NAME</label>
+<input type="text" name="firstName">
+
+<label>LAST NAME</label>
+<input type="text" name="lastName">
+
+
+<label>EMAIL</label>
+<input type="email" name="email">
+
+ <label>MESSAGE</label>
+<textarea></textarea>
+
+<input type="submit" name="submit">
+
+
+
+                      
+
+
+
+
+
+
+
+</form>
+</div>
+</section>
+
+
+
+
+
+
+ <footer id="feet">
+ 	<div class="container1">
+ 	<h3 style="margin-top: 50px;">learncode@copyright.2019</h3>
+ 	</div>
+ </footer>
+
+
+
+
+
+
+
+
+
+
+ 
+
+</body>
+
+
+<script type="text/javascript">
+	
+
+ function openSlideMenu(){
+
+
+ 	const slide = document.getElementById('side-menu').style.width = '250px';
+
+ 
+
+
+
+
+ }
+
+
+function closeSlideNav(){
+
+const close = document.getElementById('side-menu').style.width = '0';
+
+
+
+}
+
+function validate(){
+
+
+
+	firstName = document.forms.myForm.firstName.value;
+	lastName = document.forms.myForm.lastName.value;
+    email = document.forms.myForm.email.value;
+
+	 if( firstName == null || firstName == ''){
+
+          alert('Enter Firstname');
+        
+        return false;
+          
+         }
+
+
+	 if( lastName == null || lastName == ''){
+
+          alert('Enter Lastname');
+
+
+        return false;
+
+        }
+
+       if( email == null || email == ''){
+
+          alert('Enter email');
+
+
+        return false;
+
+        }
+
+
+ 
+ 
+  }
+
+	
+
+	 
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
